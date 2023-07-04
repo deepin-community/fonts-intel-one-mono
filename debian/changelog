@@ -1,4 +1,9 @@
-intel-one-mono (1.2.1-1) unstable; urgency=medium
+fonts-intel-one-mono (1.2.1-2) unstable; urgency=medium
+
+  * fix some files' errors.
+
+ -- RyanBq <ryanbqzhao@gmail.com>  Mon, 03 Jul 2023 13:11:44 +0800
+fonts-intel-one-mono (1.2.1-1) unstable; urgency=medium
 
   * Initial release in deepinOS.
 
