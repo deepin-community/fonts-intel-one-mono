@@ -1,17 +1,20 @@
 Source: fonts-intel-one-mono
-Section: font
+Section: fonts
 Priority: optional
 Maintainer: RyanBq <ryanbqzhao@gmail.com>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 1.2.1
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
 Homepage: https://github.com/intel/intel-one-mono
-
+Vcs-Browser: https://github.com/deepin-community/fonts-intel-one-mono
+Vcs-Git: https://github.com/deepin-community/fonts-intel-one-mono.git
 
 Package: fonts-intel-one-mono
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: intel-one-mono
-  intel-one-mono is an an expressive monospaced font family that’s built with clarity, legibility, and the needs of developers in mind.
-
-
-
+ intel-one-mono is an expressive monospaced font family thatâ€™s built
+ with clarity, legibility, and the needs of developers in mind.
