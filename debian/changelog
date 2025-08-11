@@ -1,8 +1,23 @@
+fonts-intel-one-mono (1.4.0-0deepin1) unstable; urgency=medium
+
+  * New upstream version 1.4.0.
+  * debhelper-compat (= 13).
+  * Update Standards-Version to 4.6.2.
+  * Add Vcs-*.
+  * Convert Description from WINDOWS-1252 to UTF-8.
+  * Machine-readable d/copyright.
+  * Sort d/*.install.
+  * Mark Architecture: all and Multi-Arch: foreign.
+  * Rename d/intel-one-mono.install to d/fonts-intel-one-mono.install.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Mon, 11 Aug 2025 16:21:29 +0800
+
 fonts-intel-one-mono (1.2.1-2) unstable; urgency=medium
 
   * fix some files' errors.
 
  -- RyanBq <ryanbqzhao@gmail.com>  Mon, 03 Jul 2023 13:11:44 +0800
+
 fonts-intel-one-mono (1.2.1-1) unstable; urgency=medium
 
   * Initial release in deepinOS.
